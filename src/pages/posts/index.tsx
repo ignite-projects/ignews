@@ -27,7 +27,7 @@ export default function Posts({ posts }: PostsProps) {
       <main className={styles.contaner}>
         <div className={styles.posts}>
           {posts.map(post => (
-            <Link href={`/posts/${post.slug}`} key={`uid-${post.slug}`}>
+            <Link href={`/posts/preview/${post.slug}`} key={`uid-${post.slug}`}>
               <a>
                 <time>{post.updatedAt}</time>
                 <strong>{post.title}</strong>
