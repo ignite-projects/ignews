@@ -1,3 +1,18 @@
+# [1.1.0](https://github.com/ignite-projects/ignews/compare/v1.0.0...v1.1.0) (2022-07-01)
+
+
+### Bug Fixes
+
+* add script test ([0a40213](https://github.com/ignite-projects/ignews/commit/0a402135b5bfd7f3508be4353fc72b937da8e0d0))
+* adjust module exports ([fabd7f7](https://github.com/ignite-projects/ignews/commit/fabd7f75d5a37e9c3d834b7223011186a1ef7586))
+
+
+### Features
+
+* add identity obj proxy dependency ([24f5138](https://github.com/ignite-projects/ignews/commit/24f5138b913a87bc3c2452a2cbb3695d6f1ee00b))
+* configure testing library ([38e4e96](https://github.com/ignite-projects/ignews/commit/38e4e969a36354d57dcefd3632a8ff7568d5a1bb))
+* create babel config ([6fc5baf](https://github.com/ignite-projects/ignews/commit/6fc5baf97e729b775207d415428a022a8334f8c2))
+
 # 1.0.0 (2022-06-04)
 
 
