@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "test": "jest",
     "release": "semantic-release",
     "postinstall": "husky install"
   },
@@ -25,6 +26,9 @@
     "stripe": "^8.219.0"
   },
   "devDependencies": {
+    "@testing-library/dom": "^8.13.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
     "@commitlint/cli": "^17.0.2",
     "@commitlint/config-conventional": "^17.0.2",
     "@semantic-release/changelog": "^6.0.1",
@@ -32,8 +36,14 @@
     "@types/node": "^17.0.25",
     "@types/prismic-dom": "^2.1.1",
     "@types/react": "^18.0.6",
+    "babel-jest": "^28.1.0",
     "eslint": "8.14.0",
     "eslint-config-next": "12.1.5",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^28.1.0",
+    "jest-dom": "^4.0.0",
+    "jest-environment-jsdom": "^28.1.0",
+    "jest-mock": "^28.1.1",
     "husky": "^8.0.1",
     "semantic-release": "^19.0.2",
     "typescript": "^4.6.3"
