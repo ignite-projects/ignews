@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="blog brisanet" src=".github/images/cover.png">
+  <img alt="project cover" src=".github/images/cover.png">
 </p>
 
 ## Requirements
